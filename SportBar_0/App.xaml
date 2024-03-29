@@ -1,0 +1,15 @@
+﻿<Application x:Class="SportBar_0.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SportBar_0"
+             xmlns:ViewModel="clr-namespace:SportBar_0.MVVM.ViewModel"
+             xmlns:View="clr-namespace:SportBar_0.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type ViewModel:HomeViewModel}">
+                <View:HomeView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

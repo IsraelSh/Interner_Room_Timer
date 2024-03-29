@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\icons8-bar-64.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aron-visuals-bZZp1PmHI0E-unsplash.jpg" />
+    <None Remove="coffenetcool.png" />
+    <None Remove="coffenetcooltext.gif" />
+    <None Remove="cooltext417903353660896.png" />
+    <None Remove="gradienta-bKESVqfxass-unsplash.jpg" />
+    <None Remove="Images\bar.png" />
+    <None Remove="Images\logo.jpg" />
+    <None Remove="Images\sportb1.png" />
+    <None Remove="jason-leung-wmyE5IBiOmo-unsplash.jpg" />
+    <None Remove="kindpng_5527712.png" />
+    <None Remove="MVVM\View\abstract-g2ce4ce969_1920.jpg" />
+    <None Remove="MVVM\View\add.png" />
+    <None Remove="MVVM\View\aron-visuals-bZZp1PmHI0E-unsplash.jpg" />
+    <None Remove="MVVM\View\ash-edmonds-XZ0xN0hmpi4-unsplash.jpg" />
+    <None Remove="MVVM\View\bar.png" />
+    <None Remove="MVVM\View\CAFEINT.jpg" />
+    <None Remove="MVVM\View\christina-deravedisian-jYQuo5Y2FOM-unsplash.jpg" />
+    <None Remove="MVVM\View\City-PNG-Image-HD.png" />
+    <None Remove="MVVM\View\City-PNG-Pic.png" />
+    <None Remove="MVVM\View\COFRNETT.png" />
+    <None Remove="MVVM\View\cyber-cafe2.jpg" />
+    <None Remove="MVVM\View\door.png" />
+    <None Remove="MVVM\View\gradienta-bKESVqfxass-unsplash.jpg" />
+    <None Remove="MVVM\View\jan-huber-3Btf2cTAGKs-unsplash.jpg" />
+    <None Remove="MVVM\View\jason-leung-wmyE5IBiOmo-unsplash.jpg" />
+    <None Remove="MVVM\View\logo.jpg" />
+    <None Remove="MVVM\View\marcel-strauss-2GfU3qlLe2M-unsplash.jpg" />
+    <None Remove="MVVM\View\note.png" />
+    <None Remove="MVVM\View\open.png" />
+    <None Remove="MVVM\View\play.jpg" />
+    <None Remove="MVVM\View\realbar.jpg" />
+    <None Remove="MVVM\View\remove.png" />
+    <None Remove="MVVM\View\sportb1.png" />
+    <None Remove="NETCAF.png" />
+    <None Remove="shutdown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\icons8-bar-64.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronPDF" Version="2022.8.8138" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="aron-visuals-bZZp1PmHI0E-unsplash.jpg" />
+    <Resource Include="coffenetcool.png" />
+    <Resource Include="cooltext417903353660896.png" />
+    <Resource Include="gradienta-bKESVqfxass-unsplash.jpg" />
+    <Resource Include="Images\bar.png" />
+    <Resource Include="jason-leung-wmyE5IBiOmo-unsplash.jpg" />
+    <Resource Include="kindpng_5527712.png" />
+    <Resource Include="MVVM\View\bar.png" />
+    <Resource Include="MVVM\View\City-PNG-Image-HD.png" />
+    <Resource Include="MVVM\View\City-PNG-Pic.png" />
+    <Resource Include="MVVM\View\gradienta-bKESVqfxass-unsplash.jpg" />
+    <Resource Include="MVVM\View\jason-leung-wmyE5IBiOmo-unsplash.jpg" />
+    <Resource Include="MVVM\View\note.png" />
+    <Resource Include="MVVM\View\realbar.jpg" />
+    <Resource Include="MVVM\View\sportb1.png" />
+    <Resource Include="MVVM\View\add.png" />
+    <Resource Include="MVVM\View\door.png" />
+    <Resource Include="MVVM\View\open.png" />
+    <Resource Include="MVVM\View\remove.png" />
+    <Resource Include="NETCAF.png" />
+    <Resource Include="shutdown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Settings1.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
